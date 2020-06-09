@@ -147,6 +147,7 @@ html {
    line-height: 90vh;
    font-size: 1.1vw;
   /* outline: 2px dashed #bbbbbb; */
+  opacity: 0;
 }
 
 .bio3 {
