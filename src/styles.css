@@ -163,6 +163,7 @@ html {
 
 .anotherphoto {
   background-image: url("images/cover1.jpg");
+  background-repeat: no-repeat;
 }
 
 .socials {

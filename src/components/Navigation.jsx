@@ -21,16 +21,13 @@ function Navigation(props) {
     <div className={isHomeBackground()}>
       <Navbar expand="lg" className="navigation">
         <Navbar.Brand as={NavLink} to="/" className={isHome()}>MICHAEL MACKENZIE</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-dark"/>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto"></Nav>
-          <Nav >
-            <Nav.Link as={NavLink} to="/" className={isHome()}>Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/projects" className={isHome()}>Projects</Nav.Link>
-            <Nav.Link as={NavLink} to="/bio" className={isHome()}>Bio</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" className={isHome()}>Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Nav className="mr-auto"></Nav>
+        <Nav >
+          <Nav.Link as={NavLink} to="/" className={isHome()}>Home</Nav.Link>
+          <Nav.Link as={NavLink} to="/projects" className={isHome()}>Projects</Nav.Link>
+          <Nav.Link as={NavLink} to="/bio" className={isHome()}>Bio</Nav.Link>
+          <Nav.Link as={NavLink} to="/contact" className={isHome()}>Contact</Nav.Link>
+        </Nav>
       </Navbar>
       <Switch>
         <Route exact path='/' component={Home} />
