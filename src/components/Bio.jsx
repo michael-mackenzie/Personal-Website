@@ -28,8 +28,10 @@ function Bio() {
       </Grid>
       <Divider style={style.divider}/>
       <Grid container alignContent="stretch" justify="center" className="main">
-        <Grid item xs={6} className="bio3">
+        <Grid item xs={12} className="bio4">
           <h2>Courses Completed</h2>
+        </Grid>
+        <Grid item xs={4} className="bio3">
           <h4>External Courses</h4>
           <ul>
             <li>Udemy "The Complete 2020 Web Development Bootcamp" by Dr. Angela Yu</li>
@@ -43,6 +45,8 @@ function Bio() {
             <li>Stochastic Processes & Applications</li>
             <li>Modern Control Theory</li>
           </ul>
+        </Grid>
+        <Grid item xs={4} className="bio3">
           <h4>300 Level</h4>
           <ul>
             <li>Database Management Systems</li>
@@ -54,6 +58,8 @@ function Bio() {
             <li>Complex Analysis</li>
             <li>Math Methods for Engineers</li>
           </ul>
+        </Grid>
+        <Grid item xs={4} className="bio3">
           <h4>200 Level</h4>
           <ul>
             <li>Real Analysis</li>
@@ -67,7 +73,7 @@ function Bio() {
             <li>Algebraic Structures</li>
           </ul>
         </Grid>
-        <Grid item xs={6} className="bio3">
+        {/*<Grid item xs={6} className="bio3">
           <h2>Who Am I?</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus. Morbi tristique senectus et netus et. Volutpat blandit aliquam etiam erat. Porta lorem mollis aliquam ut porttitor leo. Placerat vestibulum lectus mauris ultrices eros. Diam vel quam elementum pulvinar etiam non. Tempor commodo ullamcorper a lacus vestibulum sed. Condimentum lacinia quis vel eros donec ac. Eget velit aliquet sagittis id consectetur purus ut. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget.
@@ -79,7 +85,7 @@ function Bio() {
             Egestas congue quisque egestas diam in arcu cursus euismod. Cursus vitae congue mauris rhoncus aenean. At urna condimentum mattis pellentesque id nibh tortor. Volutpat maecenas volutpat blandit aliquam etiam. Quis eleifend quam adipiscing vitae. Et sollicitudin ac orci phasellus. Sit amet nisl purus in mollis nunc sed id. Quis varius quam quisque id diam vel quam. Elementum curabitur vitae nunc sed velit. Sed augue lacus viverra vitae congue eu consequat ac felis. Consectetur a erat nam at lectus urna duis. Nisl pretium fusce id velit ut tortor pretium viverra suspendisse. Sapien eget mi proin sed libero enim. Faucibus in ornare quam viverra orci sagittis eu.
             <br />
           </p>
-        </Grid>
+        </Grid>*/}
       </Grid>
       <Divider style={style.bottomd}/>
       <Grid container alignContent="stretch" justify="center" className="main">
